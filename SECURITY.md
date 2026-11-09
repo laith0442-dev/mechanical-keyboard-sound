@@ -20,12 +20,4 @@ Because **Mechanical Keyboard Sound** listens to global keyboard events to trigg
 
 ---
 
-## Reporting a Vulnerability
 
-If you discover a security vulnerability or privacy concern within this project, please report it responsibly:
-
-1. **Do not open a public GitHub issue.**
-2. Send an email to **Laith Qawasmeh** at [laith0442@gmail.com](mailto:laith0442@gmail.com) with the subject:
-   `[SECURITY] Mechanical Keyboard Sound Vulnerability Report`.
-3. Provide a detailed summary of the vulnerability, reproduction steps, and any proof-of-concept.
-4. You will receive an acknowledgment within 48 hours, followed by updates on the remediation progress.
