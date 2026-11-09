@@ -20,6 +20,12 @@
 
 Unlike traditional keyboard sound apps that require gigabytes of external `.wav` or `.ogg` sound packs, **Mechanical Keyboard Sound** features a **100% procedural audio engine**. Every mechanical click, clack, thock, and sound effect is synthesized dynamically in memory using mathematical signal processing.
 
+<img width="566" height="563" alt="image" src="https://github.com/user-attachments/assets/ec5f8b46-d198-4b09-9343-3ec47fdeb3c0" />
+
+<img width="567" height="563" alt="image" src="https://github.com/user-attachments/assets/0105e9b5-318c-4239-90f8-c619390eb4f7" />
+
+
+
 ```
        [ Key Press in Any App ]
                   │
