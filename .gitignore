@@ -1,0 +1,36 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyInstaller / Build Artifacts
+build/
+dist/
+*.manifest
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Editor & IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Operating System Files
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# User Settings & Local Data (if created in project folder)
+settings.json
+*.log

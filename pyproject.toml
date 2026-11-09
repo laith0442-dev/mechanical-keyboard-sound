@@ -1,0 +1,61 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mechanical-keyboard-sound"
+version = "1.0.0"
+description = "A zero-asset procedural mechanical keyboard sound simulator and audio FX desktop utility for Windows."
+readme = "README.md"
+authors = [
+    { name = "Laith Qawasmeh", email = "laith0442@gmail.com" }
+]
+license = { text = "MIT" }
+keywords = [
+    "mechanical-keyboard",
+    "typing-sounds",
+    "keyboard-sounds",
+    "audio-simulation",
+    "procedural-audio",
+    "pygame",
+    "desktop-application",
+    "windows"
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Environment :: Win32 (MS Windows)",
+    "Intended Audience :: End Users/Desktop",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: Microsoft :: Windows",
+    "Operating System :: Microsoft :: Windows :: Windows 10",
+    "Operating System :: Microsoft :: Windows :: Windows 11",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Multimedia :: Sound/Audio :: Sound Synthesis",
+    "Topic :: Utilities"
+]
+requires-python = ">=3.10"
+dependencies = [
+    "pygame>=2.6.1",
+    "pynput>=1.8.2"
+]
+
+[project.optional-dependencies]
+dev = [
+    "pyinstaller>=6.11.0",
+    "pytest>=8.0.0"
+]
+
+[project.urls]
+Homepage = "https://github.com/laith0442-dev/mechanical-keyboard-sound"
+Repository = "https://github.com/laith0442-dev/mechanical-keyboard-sound"
+"Bug Tracker" = "https://github.com/laith0442-dev/mechanical-keyboard-sound/issues"
+Changelog = "https://github.com/laith0442-dev/mechanical-keyboard-sound/blob/main/CHANGELOG.md"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+python_functions = ["test_*"]
