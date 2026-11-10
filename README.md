@@ -208,8 +208,8 @@ This project is licensed under the **MIT License** — see the [LICENSE](LICENSE
 
 **Eng. Laith Qawasmeh**
 
-- GitHub: [@laith0442-dev](https://github.com/laith0442-dev)
-- Email: [laith0442@gmail.com](mailto:laith0442@gmail.com)
+- GitHub: [@laith1299](https://github.com/laith1299)
+
 
 ---
 
